@@ -119,12 +119,12 @@ public:
 
 int main()
 {
-    wordManipulate w;
-    cout<<w.magic("edzlatsh", "hazel")<<endl;
-    cout<<w.magic("uwtaqicy", "watch")<<endl;
-    cout<<w.magic("d??????", "code")<<endl;
-    cout<<w.magic("g???", "code")<<endl;
-    cout<<w.longest("uruqrnytrois")<<endl;
-    cout<<w.longest("rryqeiaegicgeo??")<<endl;
+    wordManipulate word;
+    cout<<word.magic("edzlatsh", "hazel")<<endl;
+    cout<<word.magic("uwtaqicy", "watch")<<endl;
+    cout<<word.magic("d??????", "code")<<endl;
+    cout<<word.magic("g???", "code")<<endl;
+    cout<<word.longest("uruqrnytrois")<<endl;
+    cout<<word.longest("rryqeiaegicgeo??")<<endl;
 
 }
