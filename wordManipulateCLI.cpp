@@ -120,12 +120,6 @@ public:
 int main(int argc,char* argv[])
 {
     wordManipulate w;
-    // cout<<w.magic("edzlatsh", "hazel")<<endl;
-    // cout<<w.magic("uwtaqicy", "watch")<<endl;
-    // cout<<w.magic("d??????", "code")<<endl;
-    // cout<<w.magic("g???", "code")<<endl;
-    // cout<<w.longest("uruqrnytrois")<<endl;
-    // cout<<w.longest("rryqeiaegicgeo??")<<endl;
     string method=argv[1];
     
     if(method=="magic")
