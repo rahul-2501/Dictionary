@@ -29,7 +29,7 @@ The wordman executable file can access the 3 functions.
 
 Eg:
 
-   wordman magic edzlatsh hazel
    
-   Yes, hazel can be created.
+      wordman magic edzlatsh hazel
+      Yes, hazel can be created.
    
