@@ -117,14 +117,32 @@ public:
     }
 };
 
-int main()
+int main(int argc,char* argv[])
 {
-    wordManipulate word;
-    cout<<word.magic("edzlatsh", "hazel")<<endl;
-    cout<<word.magic("uwtaqicy", "watch")<<endl;
-    cout<<word.magic("d??????", "code")<<endl;
-    cout<<word.magic("g???", "code")<<endl;
-    cout<<word.longest("uruqrnytrois")<<endl;
-    cout<<word.longest("rryqeiaegicgeo??")<<endl;
+    wordManipulate w;
+    // cout<<w.magic("edzlatsh", "hazel")<<endl;
+    // cout<<w.magic("uwtaqicy", "watch")<<endl;
+    // cout<<w.magic("d??????", "code")<<endl;
+    // cout<<w.magic("g???", "code")<<endl;
+    // cout<<w.longest("uruqrnytrois")<<endl;
+    // cout<<w.longest("rryqeiaegicgeo??")<<endl;
+    string method=argv[1];
+    
+    if(method=="magic")
+    {
+        if(w.magic(argv[2],argv[3]))
+        {
+            cout<<"Yes, "<<argv[3]<<" can be created."<<endl;
+        }
+        else
+        {
+                        cout<<"No, "<<argv[3]<<" cannot be created."<<endl;
 
+        }
+    }
+
+    if(method=="longest")
+    {
+        cout<<"The longest word is "<<w.longest(argv[2])<<endl;
+    }
 }
