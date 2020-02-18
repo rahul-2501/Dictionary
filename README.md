@@ -24,3 +24,11 @@ In the case of a tie, any word that's tied for the longest is a valid output.
 Functionality 1 & 2 are solved by magic() method.
 
 Functionality 3 is solved by longest() method.
+
+The wordman executable file can access the 3 functions.
+
+Eg:
+
+   wordman magic edzlatsh hazel
+   Yes, hazel can be created.
+   
